@@ -1,0 +1,46 @@
+.header {
+    display:flex;
+    background-color: bisque;
+}
+
+h1{
+    color: #2b5791;
+}
+
+.TheGrid {
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid #2b5791;
+border-radius: 50px;
+padding: 30px;
+margin: 25px;
+}
+
+
+.animal img {
+    border: 2px solid #2b5791;
+    border-radius: 20px;
+    width: 300px; 
+    justify-content: "center";
+    
+    }
+
+    .animal{
+        border-radius: 20px;
+        background-color:lightgoldenrodyellow;
+        width: 300px;
+        padding: 50px;
+        margin: 30px;
+        justify-content: "center";
+    }
+
+    a:link{
+color: #000000;
+    }
+    a:visited{
+        color:darkgreen; 
+    }
+
+    .animal:hover {
+        transform: scale(1.2);
+    }
